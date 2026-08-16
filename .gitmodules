@@ -1,0 +1,3 @@
+[submodule "themes/epistle"]
+	path = themes/epistle
+	url = https://github.com/yibie/hugo-theme-epistle.git

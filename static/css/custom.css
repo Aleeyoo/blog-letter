@@ -1,0 +1,25 @@
+/* ── 页脚：居中、© 与订阅一体 ── */
+.site-footer__inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 auto;
+}
+
+.site-footer__dot {
+  color: var(--color-meta);
+  opacity: 0.5;
+}
+
+.site-subscribe {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.8rem;          /* 与版权一致 */
+  color: var(--color-meta);   /* 与版权一致 */
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: color 0.2s ease;
+}
+.site-subscribe:hover {
+  color: var(--color-accent);
+}

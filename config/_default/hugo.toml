@@ -1,0 +1,30 @@
+languageCode = 'zh-cn'
+title = '絮语闲言'
+theme = 'epistle'
+summaryLength = 0
+disableKinds = ['taxonomy', 'term']
+
+# 允许 Markdown 中写原生 HTML（heti 行内标签需要）
+[markup.goldmark.renderer]
+  unsafe = true
+
+# 允许 Markdown 块级元素附加 CSS 类
+[markup.goldmark.parser.attribute]
+  block = true
+  title = true
+
+[params]
+  author = 'Aleeyoo'
+  description = '一个博客'
+  mainSections = ['posts']
+  letterStyle = 'default'
+  valediction = '晚安'
+  showSignature = false
+  dappledLight = true
+  # ogImage = 'https://yourdomain.com/images/og-default.jpg'
+
+[params.guestbook]
+  enabled = false
+  # 启用时需配置以下三项（端点 + Cloudflare Turnstile）
+  # endpoint = 'https://your-worker.workers.dev/v1/submissions'
+  # turnstileSiteKey = 'your-turnstile-site-key'

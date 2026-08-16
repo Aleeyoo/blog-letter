@@ -1,0 +1,7 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span class="site-footer__copy">&copy; {{ now.Year }} {{ .Site.Params.author | default .Site.Title }}</span>
+    <span class="site-footer__dot" aria-hidden="true">·</span>
+    <a class="site-subscribe" href="{{ "index.xml" | relURL }}" title="订阅 RSS" aria-label="订阅 RSS">订阅</a>
+  </div>
+</footer>
